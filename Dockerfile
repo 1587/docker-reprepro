@@ -1,5 +1,5 @@
-FROM debian:wheezy
-MAINTAINER Bruno Binet <bruno.binet@gmail.com>
+FROM debian:debian-8.4
+MAINTAINER ZhuJiafa <zjfscu@gmail.com>
 
 RUN apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
