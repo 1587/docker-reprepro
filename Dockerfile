@@ -1,4 +1,4 @@
-FROM debian:debian-8.4
+FROM debian:8.4
 MAINTAINER ZhuJiafa <zjfscu@gmail.com>
 
 RUN apt-get update && \
